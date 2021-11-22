@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        body{
+            background-color:ghostwhite;
+            text-align: center;
+        }
+        #register-form{
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            width:40%;
+            padding-top:50px;
+            border: 2px solid lightgray;
+            height:650px;
+        } 
+        img{
+            padding:30px;
+        }
+        .input-bars{
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            padding-right: 300px;
+            margin-bottom: 40px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #000000;
+        }
+        #datainput{
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 70px;
+        }
+        #btn{
+            color:white;
+            align-items: center;
+            background-color:dodgerblue;
+            padding: 8px;
+            width:100px;
+            border-color:dodgerblue;
+        }
+        #buttons{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <form id="register-form">
+        <h1>Register</h1>
+        <div style="background-color:aliceblue">
+            <img src="./google.png">
+            <img src="./facebook.png">
+            <img src="./github.png">
+            <img src="./linkedin.png">
+        </div>
+        <br><br><br><br>
+        <div id="datainput">
+            
+            <input type="text" name="username" class="input-bars" placeholder="Username"><br>
+            
+            <input type="email" name="email" class="input-bars" placeholder="Email"><br>
+            
+            <input type="password" name="password" class="input-bars" placeholder="Password"><br>
+            
+            <input type="password" name="confirm-password" class="input-bars" placeholder="Confirm Password"><br>
+
+            <div id="buttons">
+                <input type="submit" value="Register" id="btn">
+            </div>
+
+    </form>
+</body>
+</html>
